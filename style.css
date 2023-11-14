@@ -1,0 +1,71 @@
+:root {
+    --Btn-width: 50px;
+    --Btn-height: 50px;
+    --Btn-bg-color: whiteSmoke;
+    --Btn-border-radius: 30px;
+    --main-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --main-font-color: rgb(250, 250, 250);
+}
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    font-family: --main-font-family;
+    color: var(--main-font-color);
+}
+.appContainer {
+    width: 400px;
+    height: 400px;
+    background: rgba(160, 160, 160, 0.3);
+    border-radius: 20px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.playBtnContainer {
+    width: 200px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 200px;
+}
+.resultContainer {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+.rpsBtn, #resetBtn {
+    width: var(--Btn-width);
+    height: var(--Btn-height);
+    background: var(--Btn-bg-color);
+    border-radius: var(--Btn-border-radius);
+}
+
+#rockBtn {
+    border-color: maroon;
+    color: red;
+}
+#paperBtn {
+    border-color: greenyellow;
+    color: green;
+}
+#scissorsBtn {
+    border-color: skyblue;
+    color: blue;
+}
+#resetBtn {
+    border-color: darkslategrey;
+    color:orangered;
+}
+#whatPlayed {
+    text-wrap: nowrap;
+}
