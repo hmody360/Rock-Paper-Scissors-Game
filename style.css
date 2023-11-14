@@ -49,6 +49,10 @@
     background: var(--Btn-bg-color);
     border-radius: var(--Btn-border-radius);
 }
+.rpsBtn:hover, #resetBtn:hover {
+    background: rgb(180,180,180);
+    box-shadow: inset black 1px 2px 1px 1px;
+}
 
 #rockBtn {
     border-color: maroon;
