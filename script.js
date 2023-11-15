@@ -22,7 +22,7 @@ const rpsResult = (P, C) => {
         resultText.style.color = "green"
         resultText.innerText = "You WIN!"
     } else {
-        result.innerText -= 1
+        result.innerText = 0
         resultText.style.color = "red"
         resultText.innerText = "You Lose!"
     }
